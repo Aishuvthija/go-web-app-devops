@@ -47,7 +47,7 @@ jobs:
   push:
     runs-on: ubuntu-latest
 
-    needs: lint
+    needs: push
 
     steps:
     - name: Checkout repository
